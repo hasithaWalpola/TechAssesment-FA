@@ -17,14 +17,14 @@ addBtn.addEventListener("click", () => {
 
     list.appendChild(li);
 
-    count++; // Task 3: Bug (causes incorrect count in some cases)
+    //count++; // Task 3: Bug (causes incorrect count in some cases)
     updateCount();
 
     input.value = "";
 });
 
 function updateCount() {
-    countEl.textContent = count;
+    countEl.textContent = list.children.length;
 }
 
 // Task 5: Delete all not implemented
