@@ -22,7 +22,7 @@ input {
 }
 
 .btn {
-    background-color: blue; /* Task 2: change to red */
+    background-color: red; /* Task 2: change to red */
     color: white;
     border: none;
     padding: 8px 12px;
