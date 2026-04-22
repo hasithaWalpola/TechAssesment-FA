@@ -1,0 +1,17 @@
+{
+  "name": "todo-app-assignment",
+  "version": "1.0.0",
+  "description": "Simple Todo App for student assignment (Tasks 1-6)",
+  "main": "scripts.js",
+  "scripts": {
+    "start": "live-server",
+    "test": "jest"
+  },
+  "keywords": ["todo", "assignment", "javascript", "students"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "live-server": "^1.2.2"
+  }
+}
